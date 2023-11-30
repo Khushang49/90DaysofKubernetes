@@ -10,7 +10,9 @@ below diagram is kubernetes architecture diagram.
 
 Api server is main part for any request. Whenever user will send anything it will go via API server. It will take any request. 
 
-Mainly all pods communicate with API server. 
+Mainly all pods communicate with API server. We applu YAML to API server to craete pods as per our application.
+
+It always scale as per our request or load.
 
 **CONTROL MANAGER** :
 
@@ -19,6 +21,8 @@ It will manage processes. If any pod ask for 4 container then it will check for 
 **ETCD** :
 
 etcd is type of database which stores data of current states of pods. It is not part of kubernetes. The data will be as how manay pods will be there in pods. **Only API  server can access.** 
+
+It stores metadata of cluster which is in key: value format.
 
 **KUBE SCHEDULER** :
 
@@ -38,3 +42,17 @@ if any user want to add extra pods then it will send request to API server. Then
 **WORKER NODE :**
 
 **CONTAINER ENGINE (DOCKER)** :
+
+This will use as container engine who will create container inside pods. Ex. Docker, Rocketd etc.
+
+**PODS** :
+
+It is smallest part of kubernetes. kubernetes always communicate with Pods not with container. Also pods will have IP container will not have IP. As per standards wee need to keep one container per pod. But we can keep multiple also. But if single container goes in failed then all container will also goes down which cause issue with pod. **If any pod goes down then it will create new pod.** 
+
+**KUBELET** :
+
+It mainly manage pods. If any pod require any extra resources then it will ask kublet as kublet manage all pods. it will send this request to API Server. then it will send to control manager for desired state.
+
+**KUBEPROXY** :
+
+Kubeproxy assigns IP to pods.
