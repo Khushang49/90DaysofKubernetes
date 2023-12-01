@@ -95,5 +95,7 @@ Kubeproxy assigns IP to pods. It is dynamic in nature means on restart IP will c
 Important:
 
 Kubectl : Cloud
+
 Kubeadm : Linux server
+
 kubefed : for Hybrid
