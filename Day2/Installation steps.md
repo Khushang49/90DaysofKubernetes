@@ -1,5 +1,7 @@
 Create 3 VM 1 as worker and other 2 as worker.
 
+**For this all master as well as worker need to be in same subnet.**
+
 Whenever you install kubernetes always off Swap memory.
 
 As an orchestration tool, Kubernetes operates on the design principle that deployments should use as close to 100 percent of resources as possible, to maintain efficiency. The Kubernetes scheduler determines the best available node on which to deploy newly created pods. If memory swapping is allowed to occur on a host system, this can lead to performance and stability issues within Kubernetes. For this reason, Kubernetes requires that you disable swap in the host system.
