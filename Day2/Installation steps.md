@@ -2,6 +2,8 @@ Create 3 VM 1 as worker and other 2 as worker.
 
 Whenever you install kubernetes always off Swap memory.
 
+As an orchestration tool, Kubernetes operates on the design principle that deployments should use as close to 100 percent of resources as possible, to maintain efficiency. The Kubernetes scheduler determines the best available node on which to deploy newly created pods. If memory swapping is allowed to occur on a host system, this can lead to performance and stability issues within Kubernetes. For this reason, Kubernetes requires that you disable swap in the host system.
+
 How to check whether swap is on:
 
 **#free -h**
@@ -21,6 +23,11 @@ If you want to disable swap memory permanently. Then comment all line in fstab w
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/fbf55d6d-ab0e-4388-b43a-42bc0122f9bd)
 
 Kubernetes require any container engine to be installed. hence we can use any one of Container engine. Such as docker,rocket etc.
+
+#apt-get update 
+
+#apt install docker.io
+
 
 Also check which version will be supported by kubernetes.
 
