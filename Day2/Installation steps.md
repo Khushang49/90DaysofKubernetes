@@ -30,8 +30,14 @@ Kubernetes require any container engine to be installed. hence we can use any on
 
 #apt install docker.io
 
+Also check which version will be supported by kubernetes Or check the documentation to install docker.
 
-Also check which version will be supported by kubernetes.
+Now install kubeadm to your nodes.
+
+1. Check the MAC whetehr it is legit as we cant use snapshoted VM or Hardcloned VM.
+
+   #sudo cat /sys/class/dmi/id/product_uuid
+
 
 
 
