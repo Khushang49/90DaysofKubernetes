@@ -1,3 +1,21 @@
+What is Kubernetes?
+
+Kubernetes basically a orchestrating tool for container. Kubernetes basically provide Autohealing as well as autoscaling.
+
+There are two type of Application:
+
+1.Monolith
+
+2.Microservices
+
+Monolithic Application:
+
+My whole application will be in single code. Means If you want to add any changes any application then you have to do changes on whole code.
+
+Microservices Application:
+
+Here we create diffrent service for every functionallity.
+
 Kubernetes Architecture
 
 below diagram is kubernetes architecture diagram.
