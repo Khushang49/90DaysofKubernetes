@@ -109,6 +109,10 @@ Mainly all working of pods send to Master(Control Manager).
 
 Kubeproxy assigns IP to pods. It is dynamic in nature means on restart IP will change.
 
+**CNI** :
+
+These all are bounded by CNI. Container network interface.
+
 
 Important:
 
