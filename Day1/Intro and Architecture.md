@@ -32,6 +32,8 @@ Mainly all pods communicate with API server. We applu YAML to API server to crae
 
 It always scale as per our request or load.
 
+It also help in authorization and authentication of user.
+
 **CONTROL MANAGER** :
 
 It will manage processes. If any pod ask for 4 container then it will check for actual state to desired state. Control manager get this data from ETCD.
