@@ -1,5 +1,7 @@
 Yaml is used to represent data. This data represents as **Key: Value** data. Ypu have to mention space between key and value. if you are using any key vaue pair as Array/list or Dictionary always mention proper space.
 
+**DICTIONARY SHOULD BE UNORDERED WHEREAS LIST SHOULD BE ORDERED.**
+
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/59196085-26b8-428d-973f-e71c7152d195)
 
 
