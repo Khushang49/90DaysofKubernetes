@@ -45,3 +45,12 @@ spec:
   or
 
   kubectl apply -f pod.yaml
+
+  Create a POD YAML
+
+  Go to VI editor
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/767c3db0-41bb-4374-8eca-310dc9aef277)
+
+If you are having VS code then install YAML extension for better practice.
+
