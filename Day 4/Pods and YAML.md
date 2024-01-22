@@ -40,11 +40,11 @@ spec:
 
   How to Create Pod from YAML?
 
-  kubectl create -f pod.yaml
+ **kubectl create -f pod.yaml**
 
   or
 
-  kubectl apply -f pod.yaml
+  **kubectl apply -f pod.yaml**
 
   Create a POD YAML
 
@@ -54,3 +54,24 @@ spec:
 
 If you are having VS code then install YAML extension for better practice.
 
+To check  YAML of POD
+
+**#kubectl get pod -o yaml**
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/37662870-35e0-4931-a582-13fd52f4dac6)
+
+To copy in this file in YAML 
+
+**#kubectl run nginx --dry-run=client -o yaml > test.yaml**
+
+(Dry run mode gives you the possibility of issuing a command without side effects for testing an actual command that you intend to run.)
+
+OR 
+
+**#kubectl run nginx -o yaml > test.yaml**
+
+Difference between create and apply
+
+If you are editing any pod using edit command then these changes will be not update by create command you have apply those changes.
+
+**#kubectl edit po podname**
