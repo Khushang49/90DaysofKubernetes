@@ -90,3 +90,18 @@ Syntax of command: **kubectl delete pods -l (l flag = labels) labelkey=labelvalu
 
 
 
+How to go Set based labels ?
+
+There is type in which you mentioned multiple tags for matching. In this we use **in**, **notin**, **exists**.
+
+**#kubectl get pods -l 'env in (test,prod)'**
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/2e9f3fbd-70d1-4d04-a413-dc9032d28cc7)
+
+**#kubectl get pods -l ' env notin (prod,test)'**
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/d95295ce-e561-4a3a-8793-0ed9de228e5a)
+
+
+
+
