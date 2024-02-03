@@ -3,16 +3,28 @@
 Sytax
 
 apiVersion: v1
+
 kind: Pod
+
 metadata: 
+
   name: Testpod
+  
   labels:
+  
     name: test
+    
     env: prod
+
 spec:
+
   containers:
+  
     - name: testcontainers
+    
       image: ngnx
+    
     **nodeSelector:**
+    
       harware: test
       
