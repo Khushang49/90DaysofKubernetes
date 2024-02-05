@@ -82,7 +82,7 @@ Syntax of command: **kubectl get pods -l (l flag = labels) labelkey!=labelvalue*
 
 How to delete Pods with labels?
 
-#kubectl delete pods -l tier=prod
+**#kubectl delete pods -l tier=prod**
 
 Syntax of command: **kubectl delete pods -l (l flag = labels) labelkey=labelvalue**
 
