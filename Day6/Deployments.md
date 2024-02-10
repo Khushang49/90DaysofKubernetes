@@ -11,3 +11,8 @@ Still replicaset will create POD. But Replicaset will be managed by Deployment. 
 **Whenever you create new version then it will delete old replicaset and pods.**
 
 If there is any problem with deployment then kubernetes automatically roll back to older version.
+
+
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/80a820dd-2ea5-49af-9ad0-721e8de1b58a)
+
