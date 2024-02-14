@@ -37,6 +37,9 @@ spec:
       
         image: nginx
 
+        ports:
+          - containerPorts: 80
+
 
   How to Create Pod from YAML?
 
