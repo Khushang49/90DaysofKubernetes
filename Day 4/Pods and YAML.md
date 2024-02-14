@@ -39,6 +39,8 @@ spec:
 
         ports:
           - containerPorts: 80
+          
+        restartPolicy: never  
 
 
   How to Create Pod from YAML?
