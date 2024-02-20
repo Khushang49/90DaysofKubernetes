@@ -80,3 +80,8 @@ All Commands related to Deployment
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/1fadc56b-dcf5-45c1-823b-24989e933617)
 
 
+**Imperactive Command:**
+
+**kubectl create deployment --image=nginx nginx --replicas=4 --dry-run=client -o yaml > nginx-deployment.yaml**
+
+
