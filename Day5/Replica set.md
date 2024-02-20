@@ -57,7 +57,7 @@ How you will scale this replicas? Below Logic will be used for both Replication 
 
 2. By mentioning in command.
 
-**#kubectl scale --replicas=5 -f rs.yml**
+**#kubectl scale --replicas=5 -f rs.yml**  ( By using this command it will not chang in YAML)
 
 Syntax: **kubectl scale --replicas=desired number -f yamlname**
 
