@@ -36,12 +36,16 @@ YAML for ReplicaSet
 We cant add matchLabels or matchexpression in ReplicationController as it will only use for single 
 
  selector:
+    
     matchLabels:
+       
        type: prod
 	   
 	   OR
   selector:
+   
     matchExpressions:	  
+       
        - {key: env, operator: in,notin,exist value: [test]}
 
  **Matchlabels and MatchExpression will only match labels which mentioned in pod LABEL.**
