@@ -65,6 +65,9 @@ Syntax: **kubectl scale --replicas=desired number -f yamlname**
 
 3. By mentioning command
    **#kubectl scale --replicas=1 replicationcontroller rc1**
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/eff8ceb4-493c-4b4d-ad07-081005bca80e)
+
    
    Syntax: **kubectl scale --replicas=1 replicationcontroller replicationcontrollername**
     
