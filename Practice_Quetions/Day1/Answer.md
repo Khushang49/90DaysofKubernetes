@@ -35,6 +35,12 @@ Just edit and add the required path.
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/2bb88181-2f5a-4b3b-9cf4-5e76b47d3064)
 
 
+4.
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/e888701e-6a8d-47b6-820d-dbf9a3c31869)
+
+**#kubectl get pods --show-labels | grep finance | wc -l**
+
+
 
 
 
