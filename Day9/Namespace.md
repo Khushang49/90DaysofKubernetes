@@ -5,3 +5,8 @@ https://kodekloud.com/topic/namespaces/
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/26683861-d78f-4bf7-bb44-10830890e9be)
 
 
+Commands:
+
+**#kubectl get ns --no-headers | wc -l**
+
+**#kubectl get pods --all-namespaces**
