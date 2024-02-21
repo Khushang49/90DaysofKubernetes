@@ -1,5 +1,7 @@
 # 90DaysofKubernetes
 
+**https://github.com/kodekloudhub/certified-kubernetes-administrator-course**
+
 **Day1  --- Introduction and Architecture**
 
 **Day2  --- Installation using Minikube and Kubeadm**
