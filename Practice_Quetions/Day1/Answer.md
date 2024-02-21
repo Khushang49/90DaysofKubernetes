@@ -74,7 +74,7 @@ First create namespace:
 
 Then create Pod
 
-**kubectl run redis --image=redis --namespace=tech**
+**#kubectl run redis --image=redis --namespace=tech**
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/2345ea72-f3bc-4a79-b8dc-63961cc73a4d)
 
