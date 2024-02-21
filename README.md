@@ -6,7 +6,7 @@
 
 **Day2  --- Installation using Minikube and Kubeadm**
 
-**Day3  --- Pods, Labels,Node Selector and NodeName**
+**Day3  --- Pods, Labels,Annotation,Node Selector and NodeName**
 
 **Day4  --- YAML Intro and Pods YAML**
 
