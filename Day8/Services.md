@@ -15,6 +15,20 @@ Node Port is used to enable node Port to external user to access the application
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/e2b70ce0-867a-4937-9dae-2739447dbfcd)
 
+Cluster IP:
+
+It is used to provide specific IP in Cluster to connect. As deployment will have multiple pods. Hence it will provide specific IP to that deployment.
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/dccbb440-ebb9-40a5-99f5-aedadc85feee)
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/2196ca9e-9c11-4fe5-b215-37d5e8967a2a)
+
+
+Load Balancer:
+
+In Node port it will be configured on single Port But if we have Load Balancer then we use this as Single IP for our application.
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/5e62afe5-5855-4a78-a64d-954ce7ab05c0)
 
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/e7fbb4ef-bce3-4c8b-950a-44d0f2a916f2)
