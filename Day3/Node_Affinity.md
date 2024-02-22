@@ -70,3 +70,6 @@ spec:
                 - blue  
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/7ac6f639-1c7d-4582-8713-f8f093ebf9cf)
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/8bfb5203-9785-4c00-9f28-9cdbb92a8999)
+
