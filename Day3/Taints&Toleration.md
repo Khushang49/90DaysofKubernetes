@@ -1,6 +1,22 @@
+Important Links:
+
 https://www.youtube.com/watch?v=y4UarwGKZQQ
 
 https://kodekloud.com/topic/taints-and-tolerations-2/
+
+What is taints?
+
+So basically if you want to craete PODS in specific Node then we have to mention these Taints first on Node and Toleration parameter should be there in Pod.
+
+**Mainly our Control Plane Node has this feature. hence we cannot craete pods on Control Plane. Also It dosent mean pod which has toleration pod will only scheduled at that node it can go to any node.**
+
+There are three effects are there NoSchedule, PreferNoSchedule,NoExecute
+
+**NoSchedule: It will not schedule new pods on that node.**
+
+**PreferNoSchedule: It will try to schedule on this node but cant confirm**
+
+**NoExecute: It remove all pods which were scheduled before by removing those pods.**
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/8a134052-f6a8-48eb-8213-b8c68ea15a44)
 
