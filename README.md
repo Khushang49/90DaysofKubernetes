@@ -8,7 +8,7 @@
 
 **Day3  --- Pods, Labels,Annotation,Node Selector, Taint andtoleration, NodeAffinity and NodeName**
 
-**Day4  --- YAML Intro and Pods YAML**
+**Day4  --- YAML Intro Pods YAML and resourcesrequest and limits**
 
 **Day5  --- ReplicaSet Intro and YAML**
 
