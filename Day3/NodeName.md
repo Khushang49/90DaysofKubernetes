@@ -19,6 +19,9 @@ spec:
   nodeName: node02 
   restartPolicy: Never
 
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/97c9c259-8ac2-4431-9491-c2f0354ccafd)
 
-    ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/97c9c259-8ac2-4431-9491-c2f0354ccafd)
+
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/4d30c74d-647a-4714-b26c-76a641366383)
 
