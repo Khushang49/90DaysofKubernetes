@@ -34,3 +34,5 @@ spec:
                 operator: In
                 values:
                 - blue  
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/7ac6f639-1c7d-4582-8713-f8f093ebf9cf)
