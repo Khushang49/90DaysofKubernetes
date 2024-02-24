@@ -9,6 +9,8 @@ Basically Scheduler do below tasks
 
 2) Ranking the nodes.
 
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/eb9e59d2-ad0b-45a1-a439-10bebc85b12f)
+
 
 If you are creating custom scheduler you can create with the help of YAML of kube scheduler. Which can be found in in **/etc/kubernetes/manifests**. Also Kube-scheduler works on **10259** port
 
