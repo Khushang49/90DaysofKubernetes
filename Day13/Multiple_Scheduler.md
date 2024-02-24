@@ -34,3 +34,9 @@ Change and add below points in parameter
 5) Now mention secure port.The port on which to serve HTTPS with authentication and authorization. If 0, don't serve HTTPS at all.
 
   **- --secure-port=0**
+
+How to mention Custom Scheduler in Pod. Just mention in spec of POD.
+
+**schedularName: name**
+
+Also for checking just describe the POD and check in event.
