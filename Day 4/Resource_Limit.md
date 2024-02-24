@@ -31,7 +31,7 @@ resources:
     
     memory: "1Mi"
     
-  limit:
+  limits:
   
     cpu: 2
     
