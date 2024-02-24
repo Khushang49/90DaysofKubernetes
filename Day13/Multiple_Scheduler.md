@@ -31,6 +31,6 @@ Change and add below points in parameter
    ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/a15faa1f-907b-44b8-aa9c-397c3556184c)
 
 
-5) Now mention secure port.
+5) Now mention secure port.The port on which to serve HTTPS with authentication and authorization. If 0, don't serve HTTPS at all.
 
   **- --secure-port=0**
