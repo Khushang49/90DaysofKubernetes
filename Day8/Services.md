@@ -34,4 +34,19 @@ Questions:
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/b5af6033-cae5-4b3f-8ad8-6849036dfd6e)
 
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/125db1d8-7b2f-4c5e-abd2-ef15f866a15e)
 
+```
+apiVersion: v1
+kind: Service
+metadata: 
+  name: webapp-service
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 8080
+    nodePort: 30080
+  selector:
+    name: simple-webapp
+```
