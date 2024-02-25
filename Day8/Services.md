@@ -30,6 +30,8 @@ In Node port it will be configured on single Port But if we have Load Balancer t
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/5e62afe5-5855-4a78-a64d-954ce7ab05c0)
 
+Questions:
 
-![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/e7fbb4ef-bce3-4c8b-950a-44d0f2a916f2)
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/b5af6033-cae5-4b3f-8ad8-6849036dfd6e)
+
 
