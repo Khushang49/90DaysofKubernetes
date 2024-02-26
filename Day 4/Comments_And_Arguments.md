@@ -1,11 +1,8 @@
+If you mention any command or enrtrypoint in DOckerfile but you mention command and argument in yaml then it will run yaml command first.
 
+If you want to mention any command while running pod.
 
-
-
-
-
-
-
+kubectl run podname --image=imagename --command -- argument(key)=value
 
 
 
