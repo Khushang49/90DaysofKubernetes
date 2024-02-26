@@ -63,3 +63,8 @@ spec:
     image: kodekloud/webapp-color
     args: ["--color", "green"]
 ```
+
+
+how to edit file which is edited via kubectl edit?
+
+**#kubectl replace --force -f /tmp/kubectl.yml**
