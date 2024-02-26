@@ -147,23 +147,23 @@ kubectl delete deployment <deployment-name>: Delete deployment name.
 List 3 of Kubernetes commands:
 
 ReplicaSets Management
-
+```
 kubectl create -f <replicaset-definition.yaml>: Create a ReplicaSet.
 kubectl get replicasets: List all ReplicaSets.
 kubectl describe replicaset <replicaset-name>: Describe a specific ReplicaSet.
 kubectl scale replicaset <replicaset-name> –replicas=<replica-count>: Scale a ReplicaSet.
-
+```
 Service Management
-
+```
 kubectl create service <service-type> <service-name> –tcp=<port>: Create a service.
 kubectl get services: List all services.
 kubectl expose deployment <deployment-name> –port=<port>: Expose a deployment as a service.
 kubectl describe service <service-name>: Describe a specific service.
 kubectl delete service <service-name>: Delete a service.
 kubectl get endpoints <service-name>:  Get information about a service.
-
+```
 Config Maps and Secrets
-
+```
 kubectl create configmap <config-map-name> –from-file=<path-to-file>: Create a config map from a file.
 kubectl create secret <secret-type> <secret-name> –from-literal=<key>=<value>: Create a secret.
 kubectl get configmaps: List all config maps.
@@ -172,35 +172,36 @@ kubectl describe configmap <config-map-name>: Describe a specific config map.
 kubectl describe secret <secret-name>: Describe a specific secret.
 kubectl delete secret <secret_name>: Delete a specific secret.
 kubectl delete configmap <config-map-name>: Delete a specific config map.
-
+```
 Networking
-
+```
 kubectl port-forward <pod-name> <local-port>:<pod-port>: Port forward to a pod.
 kubectl expose deployment <deployment-name> –type=NodePort –port=<port>: Expose a deployment as a NodePort service.
 kubectl create ingress <ingress-name> –rule=<host>/<path>=<service-name> –<service-port>: Create an Ingress resource.
 kubectl describe ingress <ingress-name>: Get information about an Ingress.
 kubectl get ingress <ingress-name> -o jsonpath='{.spec.rules[0].host}’: Retrieves the most value from the first rule of the specified Ingress resource.
-
+```
 Storage
-
+```
 kubectl create -f <persistent-volume-definition.yaml>: Create a PersistentVolume.
 kubectl get pv: List all PersistentVolumes.
 kubectl describe pv <pv-name>: Describe a specific PersistentVolume.
 kubectl create -f <persistent-volume-claim-definition.yaml>: Create a PersistentVolumeClaim.
 kubectl get pvc: List all PersistentVolumeClaims.
 kubectl describe pvc <pvc-name>: Describe a specific PersistentVolumeClaim.
-
+```
 StatefulSets
-
+```
 kubectl create -f <statefulset-definition.yaml>: Create a StatefulSet.
 kubectl get statefulsets: List all StatefulSets.
 kubectl describe statefulset <statefulset-name>: Describe a specific StatefulSet.
 kubectl scale statefulset <statefulset-name> –replicas=<replica-count>: Scale a StatefulSet.
-
+```
 Monitoring and Troubleshooting
-
+```
 kubectl get events: Check cluster events.
 kubectl get component statuses: Get cluster component statuses.
 kubectl top nodes: Get resource utilization of nodes.
 kubectl top pods: Get resource utilization of pods.
 kubectl debug <pod-name> -it –image=<debugging-image>: Enable container shell access debugging.
+```
