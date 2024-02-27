@@ -1,3 +1,13 @@
+Meaning of command and argumrnt is to run any command while create container.
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/aabbe1fc-c161-4a4a-8960-cd522089a40c)
+
+Syntax of command and argumemnt
+
+command: [""]
+
+args: [""]
+
 If you mention any command or enrtrypoint in DOckerfile but you mention command and argument in yaml then it will run yaml command first.
 
 If you want to mention any command while running pod.
