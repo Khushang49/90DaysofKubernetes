@@ -2,6 +2,10 @@ Meaning of command and argumrnt is to run any command while create container.
 
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/aabbe1fc-c161-4a4a-8960-cd522089a40c)
 
+In last example in commmand we mention /bin/sh === this is for shell
+
+in argument -c is for command and next will be the value which need to perform.
+
 Syntax of command and argumemnt
 
 command: [""]
