@@ -14,3 +14,24 @@ There are two types to mention these enviroment variable.
 
 
 2. envFrom:
+
+
+
+
+Questions:
+
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/30f4ada4-6040-4cd9-b2ed-c41e39235ca5)
+
+```
+apiVersion: v1
+kind: Pod
+metadata: 
+  name:  testenv
+spec: 
+  containers: 
+    - name: testenv 
+      image: webapp-color
+      env: 
+        - name: APP_COLOR
+          value: green
+```
