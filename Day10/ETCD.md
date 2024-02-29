@@ -1,5 +1,9 @@
 ETCD listen on 2379
 
+How to install ETCD
+
+**#yum install etcd-client or apt-get install etcd-client**
+
 using 2 API versions – Version 2 and Version 3.  By default it’s set to use Version 2. Each version has different sets of commands.
 
 For example, ETCDCTL version 2 supports the following commands:
