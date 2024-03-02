@@ -34,7 +34,7 @@ YAML for ReplicaSet
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/72fa970f-017c-4ea2-887a-e067747d4f98)
 
 We cant add matchLabels or matchexpression in ReplicationController as it will only use for single 
-
+```
  selector:
     
     matchLabels:
@@ -49,7 +49,7 @@ We cant add matchLabels or matchexpression in ReplicationController as it will o
        - {key: env, operator: in,notin,exist value: [test]}
 
  **Matchlabels and MatchExpression will only match labels which mentioned in pod LABEL.**
-
+````
 
 How you will scale this replicas? Below Logic will be used for both Replication controller as well as replicas set.** Also This will not change in YAMl.**
 
