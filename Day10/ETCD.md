@@ -1,5 +1,8 @@
 ETCD listen on 2379
 
+![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/ecb4478a-4055-4fa2-80fe-624021424bde)
+
+
 How to install ETCD
 
 **#yum install etcd-client or apt-get install etcd-client**
