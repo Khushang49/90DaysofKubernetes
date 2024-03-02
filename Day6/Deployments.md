@@ -18,7 +18,7 @@ There are two strategies to rollout update:
 2. Rolling Update :
 
 YAML For Deployment:
-
+```
 apiVersion: apps/v1 
 
 kind: Deployment
@@ -62,7 +62,7 @@ spec:
     matchLabels:
     
        type: prod	
-
+```
  ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/9b65da08-d02e-4fbe-9e55-0920fce86223)
       
 
