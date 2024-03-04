@@ -21,7 +21,7 @@ Now mention this label in Yaml in **nodeSelector**.
 
 
 Syntax
-
+```
 apiVersion: v1
 
 kind: Pod
@@ -47,5 +47,5 @@ spec:
     nodeSelector:
     
       env: test
-      
+ ```     
 ![image](https://github.com/Khushang49/90DaysofKubernetes/assets/95266353/ac6998a0-800c-4c6e-a347-05c7da79173c)
