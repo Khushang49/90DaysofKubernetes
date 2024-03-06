@@ -4,6 +4,8 @@ We require monitoring to monitor our Nodes and Pods basis on CPU and Memory. Kub
 
 **Metric server** is used to monitor the Kubernetes cluster. Also it does not store this data. It is only used for for live monitoring.
 
+git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
+
 **#kubectl create -f .** ( to run all yaml files)
 
 **#kubectl top nodes**  (to check nodes memory)
